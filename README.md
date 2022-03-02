@@ -36,6 +36,7 @@
 </p>
 
 **Таблица**
+
 <img width="722" alt="Снимок экрана 2022-03-03 в 02 49 19" src="https://user-images.githubusercontent.com/91221560/156469063-ceb27bcc-6366-4e25-8482-b24436f021a6.png">
 
 
