@@ -39,4 +39,19 @@
 
 <img width="722" alt="Снимок экрана 2022-03-03 в 02 49 19" src="https://user-images.githubusercontent.com/91221560/156469063-ceb27bcc-6366-4e25-8482-b24436f021a6.png">
 
+ **Диаграммы Венна о пересечении наших MACS2 пиков и ENCODE пиков для двух реплик**
+ *  Для реплик ENCFF974MOD и ENCFF202SYS с параметром --broad получилось совсем маленькое пресечение с ENCODE пиками:
+<p float='left'>
+ <img width="500" alt="Снимок экрана 2022-03-03 в 10 58 37" src="https://user-images.githubusercontent.com/91221560/156521722-a74a57cd-35e9-4f7f-8cbc-32d1fbfd5621.png">
+ <img width="500" alt="Снимок экрана 2022-03-03 в 10 57 46" src="https://user-images.githubusercontent.com/91221560/156521776-d96b96c9-7761-4523-960d-91a9458c72cd.png">
+ <img width="500" alt="Снимок экрана 2022-03-03 в 10 58 58" src="https://user-images.githubusercontent.com/91221560/156521796-a2db0208-62b8-4b68-9a57-5778548e2807.png">
+ <img width="500" alt="Снимок экрана 2022-03-03 в 10 59 16" src="https://user-images.githubusercontent.com/91221560/156521813-3f40615f-f061-4830-86f8-fea68ab4bd4e.png">
+</p>
 
+* Поэтому я решила изменить параметр, так как пики сильно зависят от параметров - попробовала вместо --broad: --nolambda и пересечений стало заметно больше:
+<p float='left'>
+ <img width="500" alt="Снимок экрана 2022-03-03 в 11 03 44" src="https://user-images.githubusercontent.com/91221560/156522601-d576284a-5a5c-42e7-9899-4b9311ab3346.png">
+ <img width="500" alt="Снимок экрана 2022-03-03 в 11 04 13" src="https://user-images.githubusercontent.com/91221560/156522615-460b8813-ab0c-4319-aac4-9fa7582afc43.png">
+ <img width="500" alt="Снимок экрана 2022-03-03 в 11 04 37" src="https://user-images.githubusercontent.com/91221560/156522632-5fbbefc3-0474-4c8b-a2a9-24e8c08ef419.png">
+ <img width="500" alt="Снимок экрана 2022-03-03 в 11 04 59" src="https://user-images.githubusercontent.com/91221560/156522662-dbd6f689-dd18-4f94-9b5a-a3d25d46f220.png">
+</p>
