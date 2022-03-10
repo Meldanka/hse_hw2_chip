@@ -32,6 +32,10 @@ google colab: https://colab.research.google.com/drive/12n6AN--Z8ToVHmSEp-6T5zl3g
 </p>
 
 После подрезаний:
+
+!trimmomatic SE -phred33 ENCFF416GCS.fastq ENCFF416GCS_trimmed.fastq ILLUMINACLIP:TruSeq3-SE:2:30:10 \
+  LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+  
 <p float='left'>
   <img width="500" alt="Снимок экрана 2022-03-02 в 22 32 48" src="https://user-images.githubusercontent.com/91221560/156468163-f01f5e0e-bada-422f-ad44-6f786b9d7fa8.png">
   <img width="500" alt="Снимок экрана 2022-03-02 в 22 33 35" src="https://user-images.githubusercontent.com/91221560/156468178-641db348-6f0a-442c-a3a2-3c7ff0a00b42.png">
